@@ -1,0 +1,261 @@
+div.contenidoWeb {
+    width: auto;
+    height: auto;
+    
+    margin-left: 25px;
+    
+    background: #fff;
+}
+div.contenidoWeb div.contenidoInterior {
+    border-left: 1px solid #6DABE6;
+    border-right: 1px solid #6DABE6;
+    
+    overflow: auto;
+}
+
+
+/* STYLE PARA -> ARTICULOS/FAMILIAS */
+div.buscadorStl {
+    width: 100%;
+    height: 35px;
+    
+    position: relative;
+}
+div.buscadorStl input.campoBuscador {
+    float: left;
+    
+    margin: 7px 0 0 15px;
+    padding: 2px 0 2px 0;
+    
+    width: 93%;
+    height: auto;
+    
+    border: 1px solid #6DABE6;
+}
+div.buscadorStl img.addDato {
+    padding: 0;
+    margin: 7px 15px 0 0;
+    
+    float: right;
+    
+    cursor: pointer;
+}
+div.buscadorStl div.stlAddBox {
+    position: absolute;
+    
+    top: 3px;
+    left: 100%;
+    
+    width: 348px;
+    height: auto;
+    
+    margin-left: -357px;
+    
+    z-index: 99;
+    
+    display: none;
+}
+div.buscadorStl div.stlAddBox img {
+    margin: 0;
+    padding: 0;
+    
+    float: left;
+}
+div.buscadorStl div.stlAddBox img.btnClose {
+    position: absolute;
+    
+    top: 4px;
+    left: 100%;
+    
+    width: 50px;
+    height: 22px;
+    
+    margin-left: -56px;
+    
+    cursor: pointer;
+}
+div.buscadorStl div.stlAddBox input {
+    margin-left: 10px;
+    
+    border: 1px solid #6DABE6;
+    font-size: 12px;
+}
+div.buscadorStl div.stlAddBox select {
+    margin-left: 10px;
+    
+    border: 1px solid #6DABE6;
+    font-size: 12px;
+}
+div.buscadorStl div.stlAddBox img.btnInsertar {
+    margin: 17px 0 4px 130px;
+    
+    cursor: pointer;
+}
+div.buscadorStl div.stlAddBox div.intAddBox {
+    background: #B3DCFF;
+    
+    border-left: #6BADE6 solid 1px;
+    border-right: #6BADE6 solid 1px;
+    
+    width: 346px;
+    height: auto;
+    
+    float: left;
+    
+    font-size: 11px;
+    color: #557590;
+    font-weight: bold; 
+}
+div.buscadorStl div.stlAddBox div.intAddBox span {
+    float: left;
+    
+    margin: 7px 0 0 10px;
+}
+
+div.separadorContenido {
+    width: 100%;
+    height: 26px;
+    
+    background: URL(../img/fndSeparadoresCont.png) repeat-x;
+    
+    position: relative;
+    
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+div.separadorContenido span {
+    float: left;
+    
+    padding: 3px 0 0 25px;
+}
+div.separadorContenido img {
+    position: absolute;
+    
+    top: 26px;
+    left: 100px; 
+    
+    padding: 0;
+    margin: 0;   
+}
+
+div.contenidoTabla {
+    margin: 7px 10px 0 10px;
+}
+
+table.tablaDatos {
+}
+table.tablaDatos td.stlTitleTabla {
+    background: url(../img/fondoTabla.png);
+    
+    padding: 7px 0 8px 0;
+    
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold; 
+    text-align: center;
+}
+table.tablaDatos tr.tablaCeldas1 td {
+    padding: 2px 7px 2px 7px;
+    
+    background: #CFF0F0;
+    
+    color: #557590;
+    font-size: 12px;
+    font-weight: bold; 
+}
+table.tablaDatos tr.tablaCeldas2 td {
+    padding: 2px 7px 2px 15px;
+    
+    color: #557590;
+    font-size: 11px;
+    
+    border-bottom: solid 1px #CFF0F0;
+}
+table.tablaDatos tr td input {
+    font-size: 12px;
+    
+    padding: 3px 3px 4px 3px;
+}
+table.tablaDatos tr td.parteBox {
+    position: relative;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia {
+    position: absolute;
+    
+    width: 348px;
+    height: auto;
+    
+    z-index: 99;
+    
+    top: 0;
+    left: 0;
+    
+    margin-left: -256px;
+    
+    display: none;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia img {
+    padding: 0;
+    margin: 0;
+    
+    float: left;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub {
+    background: #B3DCFF;
+    
+    border-left: #6BADE6 solid 1px;
+    border-right: #6BADE6 solid 1px;
+    
+    width: 346px;
+    height: auto;
+    
+    float: left;
+    
+    font-size: 11px;
+    color: #557590;
+    font-weight: bold; 
+    
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub img.btnClose {
+    position: absolute;
+    
+    top: 4px;
+    left: 100%;
+    
+    width: 50px;
+    height: 22px;
+    
+    margin-left: -62px;
+    
+    cursor: pointer;
+}
+
+
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub input {
+    margin-left: 10px;
+    
+    border: 1px solid #6DABE6;
+    font-size: 12px;
+    
+    padding: 2px;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub select {
+    margin-left: 10px;
+    
+    border: 1px solid #6DABE6;
+    font-size: 12px;
+    
+    padding: 2px;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub img.btnInsertar {
+    margin: 17px 0 4px 130px;
+    
+    cursor: pointer;
+}
+table.tablaDatos tr td.parteBox div.boxSubfamilia div.intBoxSub span {
+    float: left;
+    
+    margin: 7px 0 0 10px;
+}
+/***** FINAL STYLE PARA -> ARTICULOS/FAMILIAS */

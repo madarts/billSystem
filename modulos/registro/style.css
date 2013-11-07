@@ -1,0 +1,33 @@
+img {
+    margin: 30px 35px;
+}
+
+div#login {
+    width: 282px;
+    height: 144px;
+    
+    background: url(../../img/loginFondo.png) no-repeat;
+}
+div#login div.log_contenido {
+    padding: 35px 10px 7px 20px;
+    
+    font-size: 11px;
+    font-weight: bold;
+    color: #557590;
+    
+    line-height: 35px;
+}
+div#login div.log_contenido input {
+    float: right;
+    
+    width: 170px;    
+}
+div#login div.log_contenido input.btnLogin {
+    padding: 0;
+    margin: 3px 0;
+    
+    width: 75px;
+    height: 22px;
+    
+    float: none;
+}

@@ -1,0 +1,220 @@
+img {
+    margin: 30px 35px 0 35px;
+}
+
+
+div.topData {
+    float: right;
+    
+    color: #70818f;
+    font-size: 14px;
+    
+    margin: 75px 25px 0;
+}
+div.topData a {
+    color: #70818f;
+    font-size: 14px;
+    
+    text-decoration: none;
+}
+div.topData a:hover {
+    color: #CD3636;
+    
+    text-decoration: underline;
+}
+
+
+div.topMenu {
+    margin: 20px 0 0 25px;
+    
+    width: auto;
+    height: 85px;
+    
+    position: relative;
+}
+div.topMenu ul {
+    list-style: none;
+    
+    width: 652px;
+    height: 36px;
+    
+    padding: 0;
+    margin: 0;
+}
+div.topMenu ul li {
+    float: left;
+    
+    width: auto;
+    height: 36px;
+    
+    cursor: pointer;
+    
+    position: absolute;
+}
+div.topMenu ul li.articulos {
+    width: 101px;
+    height: 36px;
+    
+    background: url(../../img/men_Articulos.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 0;
+}
+div.topMenu ul li.articulos_On {
+    width: 101px;
+    height: 37px;
+    
+    background: url(../../img/men_Articulos_On.png) no-repeat;
+    
+    top: 0;
+    left: 0;
+}
+div.topMenu ul li.clientes {
+    width: 96px;
+    height: 36px;
+    
+    background: url(../../img/men_Clientes.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 100px;
+}
+div.topMenu ul li.clientes_On {
+    width: 96px;
+    height: 37px;
+    
+    background: url(../../img/men_Clientes_On.png) no-repeat;
+    
+    top: 0;
+    left: 100px;
+}
+div.topMenu ul li.proveedores {
+    width: 121px;
+    height: 36px;  
+    
+    background: url(../../img/men_Proveedores.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 194px;
+}
+div.topMenu ul li.proveedores_On {
+    width: 121px;
+    height: 37px;  
+    
+    background: url(../../img/men_Proveedores_On.png) no-repeat;
+    
+    top: 0;
+    left: 194px;
+}
+div.topMenu ul li.facturacion {
+    width: 116px;
+    height: 36px;
+    
+    background: url(../../img/men_Facturacion.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 314px;
+}
+div.topMenu ul li.facturacion_On {
+    width: 116px;
+    height: 37px;
+    
+    background: url(../../img/men_Facturacion_On.png) no-repeat;
+    
+    top: 0;
+    left: 314px;
+}
+div.topMenu ul li.estadisticas {
+    width: 116px;
+    height: 36px;
+    
+    background: url(../../img/men_Estadisticas.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 429px;
+}
+div.topMenu ul li.estadisticas_On {
+    width: 116px;
+    height: 37px;
+    
+    background: url(../../img/men_Estadisticas_On.png) no-repeat;
+    
+    top: 0;
+    left: 429px;
+}
+div.topMenu ul li.utilidades {
+    width: 107px;
+    height: 36px;
+    
+    background: url(../../img/men_Utilidades.png) no-repeat 0 6px;
+    
+    top: 0;
+    left: 544px;
+}
+div.topMenu ul li.utilidades_On {
+    width: 107px;
+    height: 37px;
+    
+    background: url(../../img/men_Utilidades_On.png) no-repeat;
+    
+    top: 0;
+    left: 544px;
+}
+div.topMenu div.subBorder {
+    width: auto;
+    height: 35px;
+    
+    border-bottom: 1px solid #6DABE6;
+    
+    float: right;
+}
+
+
+div.topMenu div.topSubMainMenu {
+    width: auto;
+    height: 49px;
+    
+    background: url(../../img/fondoTopSubmenu.png);
+    
+    border-left: 1px solid #6DABE6;
+    border-right: 1px solid #6DABE6;
+}
+div.topMenu div.topSubMainMenu div.optSubMenu {
+    float: left;
+    
+    width: auto;
+    height: 48px;
+    
+    padding-left: 25px;
+}
+div.topMenu div.topSubMainMenu div.optSubMenu a.subOpt {
+    padding: 16px 8px 16px 8px;
+    margin-right: 3px;
+    
+    float: left;
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+div.topMenu div.topSubMainMenu div.optSubMenu a.subOpt_On {
+    background: url(../../img/subOptFondo_On.png);
+    
+    border: #7BADDE solid 1px;
+    
+    padding: 6px 7px 16px 7px;
+    margin-right: 3px;
+    
+    float: left;
+    
+    margin-top: 9px;
+    
+    color: #2D3B46;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    
+    cursor: pointer;
+}

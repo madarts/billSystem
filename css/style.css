@@ -1,0 +1,15 @@
+body {
+    background: #d3fdff url(../img/fondo.jpg) repeat-x;
+    
+    font-family: "Arial";
+    
+    position: relative;
+    
+    width: auto;
+    height: auto;
+    
+    margin: 0;
+    padding: 0;
+    
+    overflow: scroll;
+}
